@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+/* Navbar */
+.navbar {
+background-color: antiquewhite;
+}
+.nav-link {
+    color: black !important;
+    font-size: 1rem;
+    font-weight: 400;
+}
+/* Carousel */
+.header-inner h2 {
+    font-size: 2rem;
+    color: black;
+font-weight: 400;
+}
+.header-inner p {
+    font-size: 14px;
+}
+.btn {
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.btn:hover {
+    background-color:crimson;
+    border: none;
+    transition: 1s ease-in;
+}
+/* Products */
+.products-head h3{
+    font-size: 2rem;
+font-weight: 700;
+}
+.products-head p {
+    color: coral;
+    font-size: 1rem;
+}
+.products .card {
+    box-shadow: 0 1px 2px rgba(4, 12, 2, 0.8);
+}
+.products .card:hover {
+    box-shadow: 0 1px 30px rgba(4, 12, 2, 0.8);
+    transition: 1s ease-in;
+    
+}
+/* Laptops */
+.laptops-head h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.laptops-head p {
+    color: coral;
+    font-size: 1rem;
+}
+.laptops .card {
+    box-shadow: 0 1px 2px rgba(4, 12, 2, 0.8);
+}
+.laptops .card:hover {
+    box-shadow: 0 1px 30px rgba(4, 12, 2, 0.8);
+    transition: 1s ease-in;
+}
+/* Categories */
+.categories-head h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.categories-hr {
+    height: 3px;
+    width: 6%;
+    background-color: rgb(233, 105, 0);
+    border: none;
+    border-radius: 5px;
+}
+.content{
+    box-shadow: 0 1px 30px rgba(4, 12, 2, 0.8);
+    transition: 1s ease-in;
+}
+.content h4 {
+    font-size: 1rem;
+    color: gray;
+}
+.content-2
+{
+    margin-bottom: 50px;
+    padding:40px 40px ;
+}
+.content-3 {
+    margin-top: 50px;
+    padding:40px 40px ;
+}
+/* Footer */
+footer {
+    background-color: rgba(4, 12, 2, 0.8);
+    color: white;
+}
